@@ -1,6 +1,7 @@
 # dshot
 Project independent documentation for the Dshot protocol.
 
+```
 /*
   DshotSettingRequest (KISS24). Spin direction, 3d and save Settings reqire 10 requests.. and the TLM Byte must always be high if 1-47 are used to send settings
 
@@ -28,3 +29,4 @@ typedef enum {
     DSHOT_CMD_SPIN_DIRECTION_REVERSED = 21,
     DSHOT_CMD_MAX = 47
 } dshotCommands_e;
+```
